@@ -86,12 +86,12 @@ orderSummary= <OrderSummary
 
       
     return (
-      <Aux>
+      <Auxiliary>
           <Modal show={this.state.purchasing} modalClosed={this.purchaseCancelHandler}>
             {orderSummary}
             </Modal>
         {burger}
-      </Aux>
+      </Auxiliary>
     );
   }
 }
